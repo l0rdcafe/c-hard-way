@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "ch22.h"
-#include "dbg.h"
+#include "../dbg/dbg.h"
 
 int THE_SIZE = 1000;
 static int THE_AGE = 37;

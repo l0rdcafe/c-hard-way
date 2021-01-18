@@ -4,7 +4,7 @@
 #include <string.h>
 #include <pwd.h>
 #include <unistd.h>
-#include "dbg.h"
+#include "../dbg/dbg.h"
 
 struct Logfiles {
   char** filenames;
