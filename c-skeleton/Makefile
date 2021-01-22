@@ -31,7 +31,7 @@ build:
 .PHONY: tests
 tests: CFLAGS += $(TARGET)
 tests: $(TESTS)
-	sh ./tests/runtests.sh
+	sh ./runtests.sh
 
 clean:
 	rm -rf build $(OBJECTS) $(TESTS)
